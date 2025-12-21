@@ -1,0 +1,29 @@
+{
+  "name": "geo-profile",
+  "version": "1.0.0",
+  "description": "User geolocation and profile detection utility for browser extensions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "pnpm build"
+  },
+  "keywords": [
+    "geolocation",
+    "browser",
+    "extension",
+    "vpn-detection",
+    "user-profile"
+  ],
+  "author": "frost.by",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "countries-and-timezones": "^3.8.0"
+  }
+}

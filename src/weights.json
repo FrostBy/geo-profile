@@ -1,0 +1,7 @@
+{
+  "timezone": 0.4,
+  "language": 0.3,
+  "ip": 0.3,
+  "ipMasked": 0.05,
+  "secondaryLang": 0.05
+}
