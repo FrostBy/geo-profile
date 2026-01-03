@@ -1,6 +1,6 @@
 {
   "name": "geo-profile",
-  "version": "1.0.0",
+  "version": "2026.01.04",
   "description": "User geolocation and profile detection utility for browser extensions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && cp src/*.json dist/",
     "prepare": "pnpm build"
   },
   "keywords": [
